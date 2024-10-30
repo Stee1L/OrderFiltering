@@ -1,6 +1,5 @@
 ﻿# Обзор
 
----
 <p style="font-size: 16px;">
 Приложение OrderFiltering представляет собой Web API, разработанное на платформе .NET Core,
 предназначенное для управления и фильтрации заказов на основе различных критериев. 
@@ -12,7 +11,6 @@
 
 ## Основные функции
 
----
 
 + <p style="font-size: 16px;">Управление заказами: Создание, обновление, удаление и получение заказов.</p>
 
@@ -26,7 +24,6 @@
 
 ## Используемые технологии
 
----
 
 + <p style="font-size: 16px;">.NET Core 6.0</p>
 
@@ -42,7 +39,6 @@
 
 ## Настройка и конфигурация
 
----
 ### Предварительные требования
 
 + <p style="font-size: 16px;">Установленный .NET Core SDK 6.0</p>
@@ -53,7 +49,6 @@
 
 ## Шаги по настройке
 
----
 
 <p style="font-size: 16px;">Клонирование репозитория:</p>
 
@@ -92,9 +87,8 @@ dotnet run
 <p style="font-size: 16px;">Доступ к API:</p>
 После запуска приложения, вы можете получить доступ к API через Swagger по адресу:
 
-```http request
-http://localhost:8000/swagger
-```
+>http://localhost:8000/swagger
+
 <p style="font-size: 16px;">Конфигурация приложения</p>
 Файл appsettings.json содержит основные настройки приложения:
 
@@ -121,7 +115,7 @@ GET /api/district/districts
 <p style="font-size: 16px;">Создание нового района: </p>
 
 ```http request
-  POST /api/district/create
+POST /api/district/create
 ```
 
 <p style="font-size: 16px;">Изменение района: </p>
