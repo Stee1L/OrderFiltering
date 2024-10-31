@@ -53,7 +53,7 @@
 <p style="font-size: 16px;">Клонирование репозитория:</p>
 
 ```bash
-git clone <URL_репозитория>
+git clone <https://github.com/Stee1L/OrderFiltering/tree/master>
 cd OrderFiltering
 ```
 
